@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+h1, h3{
+    font-weight: 400;
+}
+h1, h2, h3,h4,h5,h6{
+    color: #676770;
+}
+p{
+    font-size: 12px;
+}
+.nav{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    height: 8vh;
+    width: 100%;
+}
+.velocity{
+    color: lightskyblue;
+    font-size: 25px;
+}
+.nav ul{
+    gap: 40%;
+    list-style-type: none;
+    display: flex;
+}
+.nav ul li:first-child{
+    color: lightskyblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+.background{
+    color: aliceblue;
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/IMAGE.png);
+    background-repeat: no-repeat;
+    position: relative;
+bbackground-position: 100% 100%;
+
+}
+.background h7{
+    font-size: 300%;
+    position: absolute;
+    left: 36%;
+    top: 30%;
+}
+.signup{
+    background-color: #69B9FF;
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    width: 9%;
+    height: 40px;
+    color: aliceblue;
+    border-radius: 5px;
+    border-color: lightskyblue;
+    border-style: solid;
+    border-width: 1px;
+}
+.learnmore{
+    background-color: rgba(135, 206, 250, 0);
+    color: aliceblue;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 12%;
+    height: 40px;
+    border-radius: 5px;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+
+}
+
+
+
+
+
+
+
+.whatwedo{
+
+    height: 75%;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.three{
+gap: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.three{
+
+}
+.box{
+   
+    align-items: center;
+    border-radius: 1px;
+    align-items: center;
+    border-color: #DCEBF7;
+    width: 300px;
+    height: 291px;
+    border-style: solid;
+    border-radius: 5px;
+    text-align: center;
+    border: 2px solid #DCEBF7;
+}
+.serv{
+    justify-content: center;
+    
+    color: aliceblue;
+    background-color: #192024;
+    padding: 50px;
+}
+.services{
+    text-align: center;
+    width: 40%;
+    height: 100vh;
+
+}
+.services button{
+    border-style: solid;
+
+border-radius: 5px;
+}
+.learnbutton{
+    padding: 6px 20px;
+    border-color: aliceblue;
+    color: aliceblue;
+    background-color: rgba(0, 128, 0, 0);
+
+}
+.tabselection{
+    margin: 50px 0;
+    text-align: center;
+}
+.sky{
+    text-align: center;
+    padding: 50px 0;
+}
+.some{
+    text-align: center;
+}
+.some p{
+    color: #6A859C;
+}
+.about{
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.about p{
+    color: #668CAD;
+}
+.about div ul li{
+    list-style-type: none;
+}
+.aboutvelo, .useful, .social{
+    width: 25%;
+}
+.about li{
+    border-bottom: 2px solid #D5D5E0;
+    font-size: 12px;
+    color: #668CAD;
+}
+
+.buttontab{
+    padding: 0 25px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #92A0AD;
+}
+.bluetab{
+    background-color: #2E80B6;
+}
+footer{
+    background-color: #676770;
+    width: 100%;
+    height: 15vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+
+}
+
+.whatwedo h1, .whatwedo p{
+    margin: 15px 0;
+}
+
+.what2{
+    padding: 20px 0;
+}
+.what2 p{
+    font-size: 15px;
+    color: #8E8E9C;
+}
+.box p{
+    color: #6A859C;
+}
+
+.serv2{
+    display: flex;
+    justify-content: center;
+
+}
+.servicesthis{
+    text-align: center;
+
+}
+.servicesthis h1{
+    color: white;
+}
+.servicesthis p{
+    color: #dedede;
+    font-size: 15px;
+}
+.social img{
+    display: inline;
+    
+}
+.social li{
+    padding: 8px 0;
+}
+.useful li{
+    padding: 8px 0;
+}
